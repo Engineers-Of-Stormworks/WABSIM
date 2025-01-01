@@ -1,0 +1,36 @@
+{
+    "WABSIM Master": {
+        "Channels": {
+            "Boolean": {
+                "1": "Request Master",
+                "2": "Deny Master",
+                "3": "Reserved"
+            },
+            "Number": {
+                "1": "Front/Rear Car Count",
+                "2": "Vehicle Position (Only works with master)",
+                "3": {
+                    "Label": "Master Position/Version Number",
+                    "ID": "410X/410X"
+                }
+            }
+        }        
+    },
+    "TCP Master": {
+        "Channels": {
+            "Boolean": {
+                "1": "Request Master",
+                "2": "Deny Master",
+                "3": "Reserved (Alternate System Detected?)"
+            },
+            "Number": {
+                "1": "Front/Rear Car Count",
+                "2": "Vehicle Position (Only works with master)",
+                "3": {
+                    "Label": "Master Position/Version Number",
+                    "ID": "420X/420X"
+                }
+            }
+        }
+    }
+}
