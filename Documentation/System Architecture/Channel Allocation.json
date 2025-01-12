@@ -1,17 +1,36 @@
 {
-    "Channels": {
-        "Boolean": {
-            "1": "Request Master",
-            "2": "Deny Master",
-            "3": "Reserved"
-        },
-        "Number": {
-            "1": "Front/Rear Car Count",
+    "Master Assignment": {
+        "Channels": {
+            "Boolean": {
+                "1": "Request Master",
+                "2": "Deny Master",
+                "3": "Reserved"
+            },
+            "Number": {
+                "1": "Front/Rear Car Count",
                 "2": "Vehicle Position (Only works with master)",
                 "3": {
                     "Label": "Master Position/Version Number",
                     "ID": ""
                 }
             }
-        }        
+        }
+    },
+    "Proprietary Mode": {
+        "Boolean": {
+        
+        },
+        "Number": {
+            "4": "WABSIM 1 Brake Pipe (90-0)",
+            "5": "Brake Pressure (0-1)"
+        }
+    },
+    "Compatibility Mode": {
+        "Boolean": {
+
+        },
+        "Number": {
+            "5": "Brake Pressure (0-1)"
+        }
+    }
 }
