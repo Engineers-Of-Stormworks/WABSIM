@@ -32,6 +32,7 @@
         },
         "Number": {
             "5": "Brake Pressure (0-1)"
+            "7": "Light Data From ESS"
         }
     }
 }
