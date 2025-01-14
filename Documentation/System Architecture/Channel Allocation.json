@@ -8,7 +8,7 @@
             },
             "Number": {
                 "1": "Front/Rear Car Count",
-                "2": "Vehicle Position (Only works with master)",
+                "2": "Vehicle Sum",
                 "3": {
                     "Label": "Master Position/Version Number",
                     "ID": ""
@@ -32,7 +32,7 @@
         },
         "Number": {
             "5": "Brake Pressure (0-1)",
-            "7": "Light Data From ESS"
+            "7": "TMAS Lighting Data"
         }
     }
 }
