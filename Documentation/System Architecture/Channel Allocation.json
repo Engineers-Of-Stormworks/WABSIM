@@ -11,7 +11,7 @@
                 "2": "Vehicle Position (Only works with master)",
                 "3": {
                     "Label": "Master Position/Version Number",
-                    "ID": ""
+                    "ID": "1"
                 }
             }
         }
